@@ -1,0 +1,41 @@
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.search-form{
+    padding: 15px 40px;
+    border-radius: 10px;
+    border:  1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+input{
+    padding: 15px 10px;
+    border-radius: 10px;
+    border:  1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.select-list{
+    padding: 15px 10px;
+    border-radius: 10px;
+    border:  1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.select-list:option{
+    padding: 15px 10px;
+    border-radius: 10px;
+    border:  1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+.export-btn{
+    padding: 15px 10px;
+    border-radius: 10px;
+    border:  1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+

@@ -1,0 +1,51 @@
+.card-group{
+    display: flex;
+    /* grid-template-columns: 200px 200px 200px; */
+    justify-content: space-between;
+    padding-top: 30px;
+
+   
+   gap: 20px;
+ 
+
+   
+}
+
+
+.spinner{
+    margin: auto;
+    margin-top: 15%;
+    width: 250px;
+}
+
+.spin{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 200px;
+    margin-top: 15px;
+
+}
+
+
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid grey;
+}
+h1{
+    margin-bottom: 15px;
+
+}
+.card-info h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

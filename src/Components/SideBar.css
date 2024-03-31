@@ -1,0 +1,56 @@
+
+.side-bar{
+    height: 100vh;
+    width: 20%;
+    background-color: #f5f5f5;
+    position: sticky;
+    padding-top: 10px;
+    top: 0;
+    left: o;
+    overflow-y: auto;
+    
+}
+
+ul{
+    padding-left: 25px;
+    list-style: none;
+}
+
+ul li{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a img{
+    width: 25px;
+    height: 15px;
+    padding-right: 10px;
+    align-items: center;
+}
+a{
+padding: 8px;
+padding-right: 10px;
+}
+a:hover{
+    color: white;
+}
+
+.side-bar ul li a:hover{
+background-color: #534FEB;
+color: white;
+border-radius: 5px;
+}
+.drop-down{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+ .option{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}

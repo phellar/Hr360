@@ -1,0 +1,45 @@
+.head{
+    background-color:rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.head p{
+
+    margin-right: 10px;
+}
+
+
+
+.employee-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.15);
+    width: 100%;
+    margin-top: 10px;
+   text-align: justify;
+}
+.employee-info ul{
+    display: flex;
+    justify-content: space-between;
+}
+.employee-info ul li{
+   margin-right: 20px;
+}
+
+.data-section{
+    overflow: auto;
+}
+
+.emp{
+   background-color: rgba(0, 0, 0, 0.1);
+   border: 1px solid #534FEB; 
+   padding: 5px;
+   border-radius: 5px;
+   color: #534FEB;
+}
