@@ -31,3 +31,21 @@ p{
 span{
   color:  rgba(0, 0, 0, 0.35);
 }
+
+.highlight{
+  font-weight: 550;
+  color: black;
+}
+
+.active{
+  color: #534FEB;
+}
+
+
+@media screen  and (max-width: 768px){
+  .container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 20px;
+  }
+}

@@ -20,12 +20,14 @@ const Dashboard = () => {
                 <SideBar/>
 
                     <ContentArea>
-                            <div className="container">
                                 <Header/>
+                            <div className="container">
                                 <PageHeader>
                                         <h1>dashboard</h1>
                                         <p>{date} | {time}</p>
                                 </PageHeader>
+                                <p>The real  Magic is happening at the employee and payroll section</p>
+                                <p>No vex,this particular page is under construction</p>
                         </div>
 
                     </ContentArea>

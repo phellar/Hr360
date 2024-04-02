@@ -3,10 +3,35 @@
     justify-content: space-between;
     padding-top: 40px;
 }
-.search-form{
-    padding: 15px 40px;
+
+input::placeholder{
+    color: black;
+}
+
+.filter{
+    border: none;
+    padding: 0px;
+    width: 50px;
+    outline: none;
+}
+
+#filter-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
     border-radius: 10px;
-    border:  1px solid rgba(0, 0, 0, 0.15);
+    border:  1px solid rgba(0, 0, 0, 0.15);    
+}
+
+.input-icon{
+    padding: 5px;
+
+}
+
+.search-form{
+    /* padding: 15px 30px; */
+    border: none;
     outline: none;
 }
 
@@ -37,5 +62,85 @@ input{
     outline: none;
     cursor: pointer;
     background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
+.export-btn img{
+    margin-left: 10px;
+}
+
+#search-comp{
+    border-radius: 10px;
+    border:  1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+   
+  
+}
+
+
+@media screen  and (max-width: 768px){
+    .search{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+   
+
+    .form-field{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+  }
+
+  @media screen  and (max-width: 368px){
+    .search-form{
+        width: 200px;
+      }
+  }
+
+
+@media screen  and (max-width: 480px){
+    .search-form{
+        width: 220px;
+      }
+
+      .select-list{
+        padding: 15px 18px;
+        width: 180px;
+    }
+
+    .filter{
+        margin-right: 20px;
+    }
+
+    .export-btn{
+        margin-left: 15px;
+    }
+
+  }
+
+  @media screen  and (max-width: 320px){
+    .search-form{
+        width: 170px;
+      }
+      .filter{
+        margin-right: 5px;
+    }
+
+    
+    .select-list{
+        padding: 15px 18px;
+        width: 150px;
+    }
+
+    .export-btn{
+        margin-left: 5px;
+    }
+    
+    }

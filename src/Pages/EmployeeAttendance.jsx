@@ -11,7 +11,9 @@ import Spinner from "../assets/Half circle.gif"
 import DataTable from '../Components/DataTable'
 import Bag from "../assets/bag.png"
 import Cog from "../assets/cog.png"
+import Clock from "../assets/icon (8).png"
 import Chair from "../assets/chair.png"
+import Umbrella from "../assets/icon (9).png"
 import HrContext from '../HRContext/HrContext'
 
 const EmployeeAttendance = () => {
@@ -21,10 +23,8 @@ const EmployeeAttendance = () => {
 
  
 
-  useEffect(()=>{
-
         showSpinner();
-  },[])
+
 
  
   return (
@@ -34,9 +34,9 @@ const EmployeeAttendance = () => {
               <Header/>
                   <div className="container">
                       <PageHeader>
-                            <div className="">
-                               <h1>Employee  Attendance</h1>
-                               <p>Dashboard . Employee . Attendance</p>
+                            <div className="nav">
+                               <h2>Employee  Attendance</h2>
+                               <p>Dashboard . Employee . <span className='active'>Attendance</span></p>
                             </div>
                           <p>{date} | {time}</p>
                       </PageHeader>
@@ -56,7 +56,7 @@ const EmployeeAttendance = () => {
                                                 <p>10% last month</p>
                                             </div>
                                         <p>Total workforce</p>
-                                        <h2>150</h2> 
+                                        <h2><strong>150</strong></h2> 
                                         
                                     </div>
                                 </Card>
@@ -67,7 +67,7 @@ const EmployeeAttendance = () => {
                                                     <p>10% last month</p>
                                                 </div>
                                                 <p> Present workforce</p>
-                                                <h2>125</h2>
+                                                <h2><strong>125</strong></h2>
                                                 
                                             </div>
                                         </Card>
@@ -78,31 +78,32 @@ const EmployeeAttendance = () => {
                                                             <p>10% last month</p>
                                                         </div>
                                                     <p>Absents</p>
-                                                    <h2>15</h2>
+                                                    <h2><strong>15</strong></h2>
                                                 </div>
                                             </Card>
                                                     <Card>
                                                         <div className="card-info">
                                                             <div className="card-header">
-                                                            <img src={Cog}/>
+                                                            <img src={Clock}/>
                                                                 <p>10% last month</p>
                                                             </div>
                                                             <p>Late arrivals</p>
-                                                        <h2>5</h2>
+                                                        <h2><strong>5</strong></h2>
                                                             
                                                         </div>
                                                     </Card>
                                                         <Card>
                                                             <div className="card-info">
                                                                 <div className="card-header">
-                                                                <img src={Cog}/>
+                                                                <img src={Umbrella}/>
                                                                     <p>10% last month</p>
                                                                 </div>
                                                                 <p>On leave</p>
-                                                            <h2>5</h2>
+                                                            <h2><strong>5</strong></h2>
                                                                 
                                                             </div>
                                                         </Card>                    
+                                                                          
                             </div>
 
                           <Search/>

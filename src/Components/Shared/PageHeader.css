@@ -5,3 +5,16 @@
     /* background-color: red; */
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .pageheader{
+      justify-content: end;
+      align-items: flex-start;
+      flex-direction: column-reverse;
+      line-height: 1.5;
+
+       
+    }
+}
+
+

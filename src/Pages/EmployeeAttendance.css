@@ -1,14 +1,9 @@
 .card-group{
-    display: flex;
-    /* grid-template-columns: 200px 200px 200px; */
-    justify-content: space-between;
-    padding-top: 30px;
-
-   
+   display: flex;
+    /* justify-content: space-evenly; */
+    padding-top: 30px;  
    gap: 20px;
- 
-
-   
+   width: 100%;  
 }
 
 
@@ -38,14 +33,43 @@
     height: 30px;
     width: 30px;
     border-radius: 5px;
-    background-color: red;
-    border: 1px solid grey;
 }
-h1{
+h2{
     margin-bottom: 15px;
 
 }
 .card-info h2{
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+@media screen  and (max-width: 768px){
+   .nav{
+    margin-top: 15px;
+   }
+
+   .card-group{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap; 
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+
+}
+.spinner{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    width: 300px;
+}
+
+
 }

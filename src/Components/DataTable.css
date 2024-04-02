@@ -43,3 +43,52 @@
    border-radius: 5px;
    color: #534FEB;
 }
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .data-section{
+       overflow: auto;
+    }
+
+    .head{
+        background-color:rgba(0, 0, 0, 0.15);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 25px 20px;
+        border-radius: 10px;
+        margin-top: 30px;
+        align-items: center;
+        overflow-x: auto;
+        width: 100%;
+        color: blue;
+    }
+
+    .employee-info{
+        margin-right: 30px;
+        overflow: hidden;
+    }
+
+    
+.head p{
+
+    margin-right: 30px;
+}
+    
+.data-info{
+    overflow: hidden;
+   
+}
+    
+
+}
+
+@media screen and (max-width: 480px){
+    .head{
+        overflow-x: auto;
+        width: 100%;
+    }
+}

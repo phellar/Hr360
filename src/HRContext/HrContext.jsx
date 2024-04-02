@@ -101,9 +101,28 @@ export const HrContextProvider = ({children})=>{
     const showSpinner=()=>{
         setTimeout(()=>{
             setIsLoading(false) 
-        },3000)
+        },5000)
     }
     
+    // show and hide drop down menu
+    const [openMenu1, setOpenMenu1] = useState(false)
+    const [openMenu2, setOpenMenu2] = useState(false)
+    const [openMenu3, setOpenMenu3] = useState(false)
+    const [openMenu4, setOpenMenu4] = useState(false)
+
+    const showMenu1 = ()=>{
+      setOpenMenu1(!openMenu1);
+    }
+    const showMenu2 = ()=>{
+      setOpenMenu2(!openMenu2);
+     
+    }
+    const showMenu3 = ()=>{
+      setOpenMenu3(!openMenu3);
+    }
+    const showMenu4 = ()=>{
+      setOpenMenu4(!openMenu4);
+    }
     
     
     
@@ -115,7 +134,15 @@ export const HrContextProvider = ({children})=>{
         time,
         showSpinner,
         currentMonth,
-        currentDay
+        currentDay,
+        openMenu1,
+        openMenu2,
+        openMenu3,
+        openMenu4,
+        showMenu1,
+        showMenu2,
+        showMenu3,
+        showMenu4
         
 
 
